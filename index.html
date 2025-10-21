@@ -3,11 +3,11 @@ Requirements
 [ ✔ ] Two External Links
 [ ✔ ] Table (minimum 2 Columns by 3 Rows)
 [  ] Three CSS Rules
-[✔  ] Three Images
+[1/3  ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
+[ yes] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
 [ no ] Feature 5 - Include at least two Internal links
@@ -20,6 +20,14 @@ Select ONE Additional Feature to Add
   <title>Project: Unit 3</title>
   <meta charset="utf-8">
   <style>
+    body{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/020/367/996/non_2x/background-of-flowers-twigs-and-leaves-placed-at-the-bottom-space-for-text-illustration-of-stylized-plants-in-cartoon-style-isolated-on-a-light-background-vector.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌺</text></svg>") 16 0,auto; /*!emojicursor.app*/)
+    }
+
     
   </style>
 </head>
@@ -30,7 +38,7 @@ Select ONE Additional Feature to Add
 
 
 
-  <h2 id="lalala">Basic</h2>
+  <h2>Basic Day</h2>
 
   <ul>
     <li>Wake up</li>
@@ -44,7 +52,9 @@ Select ONE Additional Feature to Add
     <li>Watch a movie with your family and go to bed at a resonable hr</li>
   </ul>
 
- <table>
+ 
+ 
+  <table>
 <thead>
 <tr>
   <th>Things You Will Need</th>
@@ -79,14 +89,9 @@ Select ONE Additional Feature to Add
 </tbody>
 
  </table> 
-  
-
-
  <a href="https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6501f020eda9ca60e895f4e6_have-a-good-day-more-1.jpg">Read more here about how to have a Good Day</a>
  <a href="https://media.istockphoto.com/id/133441603/photo/big-ears-upside-down.jpg?s=612x612&w=0&k=20&c=HlQKLvEGaZSU4rbN6vd6jy2qYvyKhCvbjdvKrnjssYU=">A pic to make you happy so you can start to have a good day</a>
-<img src="data:image/png;base64,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" alt="">
-<img src="https://www.realsimple.com/thmb/BdCpOK77ZiBw5JuGcPsxr93S0J8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PositivityQuotes_BearGrylls-a882e869cc494a9084beeccccf6e4ba3.jpg">
-<img src="https://i.pinimg.com/236x/3a/03/aa/3a03aa12c4cf5391020d61395f4609f5.jpg">
+
 
 
 </body>
